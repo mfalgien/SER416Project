@@ -9,6 +9,8 @@ const indexRouter = require('./routes/index');
 const registerRouter = require('./routes/register');
 const loginRouter = require('./routes/login');
 const donateRouter = require('./routes/donate');
+const volunteerRouter = require('./routes/volunteer');
+const volunteerSelectRouter = require('./routes/volunteerSelect');
 
 app.listen(8001, function () {
     console.log('Listening on 8001...');
@@ -22,3 +24,5 @@ app.use('/', indexRouter);
 app.use('/register', registerRouter);
 app.use('/login', loginRouter);
 app.use('/donate', donateRouter);
+app.use('/volunteer', volunteerRouter);
+app.use('/volunteerselect', volunteerSelectRouter);
