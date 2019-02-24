@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Payments </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/register.css' />
+
+</head>
+
+<body>
+    <div class='container-fluid pt-2'>
+        <nav class="navbar navbar-light">
+            <div>
+                <a class="btn btn-warning mr-2" href="/donate" role="button">
+                    Donate
+                </a>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <button type="button" class="btn btn-success float-right"> Log Out </button>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron pb-2" id="jumbo">
+        <div class="container justify-content-center">
+            <h1 class="display-5">Hello Michael!</h1>
+            <p class="lead">Current Enrollments</p>
+        </div>
+    </div>
+
+    <div class="container-fluid col-8">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody class="table table-light table-bordered">
+                <tr>
+                    <th>
+                        Class
+                    </th>
+                    <td>
+                        Swimming
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        $5
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Equipment Rental
+                    </th>
+                    <td>
+                        Table
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        $25
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Equipment Rental
+                    </th>
+                    <td>
+                        Chair
+                    </td>
+                    <td>
+                        25
+                    </td>
+                    <td>
+                        $25
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Rental Space
+                    </th>
+                    <td>
+                        Gazebo
+                    </td>
+                    <td>
+                        -
+                    </td>
+                    <td>
+                        $50
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container col-8">
+        <div class="row justify-content-between">
+            <div class=".col-6 .offset-3"></div>
+            <div class=".col-2 .offset-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Amount Due: </span>
+                    </div>
+                    <input type="text" class="form-control" value="$105">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-6 d-flex align-items-center justify-content-center">
+        <form class="align-items-center">
+            <div class="form-group">
+                <label for="payment">Payment Details</label>
+                <input type="email" class="form-control" id="payment" placeholder="Credit Card Number">
+            </div>
+            <div class="form-row">
+                <div class="row">
+                    <div class="col">
+                        <label for="details">Month</label>
+                        <input type="text" class="form-control" id="details" placeholder="Month">
+                    </div>
+                    <div class="col">
+                        <label for="year"> Year</label>
+                        <input type="text" class="form-control" id="year" placeholder="Year">
+
+                    </div>
+                    <div class="col">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv">
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        
+    </div>
+
+    <div class="container col-6 d-flex align-items-center justify-content-center mt-3">
+        <div class="row justify-content-between">
+            <div class=".col-4 .offset-4">
+            </div>
+            <div class=".col-2 .offset-2">
+                    <a class=" btn btn-warning mr-2" href="/enrolled" role="button"> Pay Now
+                    </a>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+            <a class="navbar-brand mr-3" href="/">Home</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3 mr-3" href="/">Refund Policy</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3" href="/requests">Requests</a>
+        </nav>
+    </div>
+</body>
+
+</html>

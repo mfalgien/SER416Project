@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Requests </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/register.css' />
+    <link rel='stylesheet' href='/stylesheets/calendar.css' />
+
+</head>
+
+<body>
+    <div class='container-fluid pt-2'>
+        <nav class="navbar navbar-light">
+            <div>
+                    <a class="btn btn-warning mr-2" href="/register" role="button">
+                        Register
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/login" role="button">
+                        Login
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/volunteer" role="button">
+                        Volunteer!
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/donate" role="button">
+                        Donate
+                    </a>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <a class="btn btn-success mr-2" href="/rentals" role="button">
+                Rentals
+            </a>
+        </nav>
+    </div>
+
+
+    <div class="jumbotron jumbotron pb-2" id="jumbo">
+        <div class="container justify-content-center">
+            <h1 class="display-5">Don't see something you're looking for?</h1>
+            <p> We would love to get some suggestions on classes or services to offer in the future.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="input-group">
+            <textarea class="form-control" rows="12" aria-label="With textarea"></textarea>
+        </div>
+        <div>
+            <button class="btn btn-warning mt-2"> Submit Feedback</button>
+        </div>
+    </div>
+
+    <div>
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+            <a class="navbar-brand mr-3" href="/">Home</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3 mr-3" href="/">Refund Policy</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3" href="/requests">Requests</a>
+        </nav>
+    </div>
+</body>
+
+</html>

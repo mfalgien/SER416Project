@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Rentals </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/register.css' />
+    <link rel='stylesheet' href='/stylesheets/calendar.css' />
+
+</head>
+
+<body>
+    <div class='container-fluid pt-2'>
+        <nav class="navbar navbar-light">
+            <div>
+                <a class="btn btn-warning mr-2" href="/donate" role="button">
+                    Donate
+                </a>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+            <button type="button" class="btn btn-success float-right"> Log Out </button>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron pb-2" id="jumbo">
+        <div class="container justify-content-center">
+            <h1 class="display-5">Hello Michael!</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="month">
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>February<br><span style="font-size:18px">2019</span></li>
+            </ul>
+        </div>
+
+        <ul class="weekdays">
+            <li>Su</li>
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+
+        </ul>
+
+        <ul class="days">
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li><span class="active">23</span></li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+
+        </ul>
+    </div>
+    <div class="container pt-4 pb-2">
+        <h3>
+            I want to:
+        </h3>
+        <div class="row">
+            <div class="col">
+                <a class="btn btn-warning mr-2" href="/rentals/spaces" role="button">
+                    Reserve a space
+                </a>
+                <a class="btn btn-warning mr-2" href="/rentals/equipment" role="button">
+                    Reserve equipment
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+            <a class="navbar-brand mr-3" href="/">Home</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3 mr-3" href="/">Refund Policy</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3" href="/requests">Requests</a>
+        </nav>
+    </div>
+</body>
+
+</html>

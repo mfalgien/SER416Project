@@ -1,0 +1,24 @@
+{
+  "name": "ser416",
+  "version": "1.0.0",
+  "description": "final project for ser416",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfalgien/SER416Project.git"
+  },
+  "author": "Michael Falgien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfalgien/SER416Project/issues"
+  },
+  "homepage": "https://github.com/mfalgien/SER416Project#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "router": "^1.3.3"
+  }
+}
