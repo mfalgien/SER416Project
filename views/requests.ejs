@@ -17,130 +17,44 @@
     <div class='container-fluid pt-2'>
         <nav class="navbar navbar-light">
             <div>
-                <a class="btn btn-warning mr-2" href="/donate" role="button">
-                    Donate
-                </a>
+                    <a class="btn btn-warning mr-2" href="/register" role="button">
+                        Register
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/login" role="button">
+                        Login
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/volunteer" role="button">
+                        Volunteer!
+                    </a>
+                    <a class="btn btn-warning mr-2" href="/donate" role="button">
+                        Donate
+                    </a>
             </div>
             <form class="form-inline">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
-            <button type="button" class="btn btn-success float-right"> Log Out </button>
+            <a class="btn btn-success mr-2" href="/rentals" role="button">
+                Rentals
+            </a>
         </nav>
     </div>
+
+
     <div class="jumbotron jumbotron pb-2" id="jumbo">
         <div class="container justify-content-center">
-            <h1 class="display-5">Hello Michael!</h1>
+            <h1 class="display-5">Don't see something you're looking for?</h1>
+            <p> We would love to get some suggestions on classes or services to offer in the future.</p>
         </div>
     </div>
 
     <div class="container">
-        <div class=row>
-            <div class="col-4 justify-content-left">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Date Selected: </span>
-                    </div>
-                    <input type="text" class="form-control" value="02/23/2019">
-                </div>
-            </div>
+        <div class="input-group">
+            <textarea class="form-control" rows="12" aria-label="With textarea"></textarea>
         </div>
-    </div>
-
-
-    <div class="container-fluid mt-3 col-8">
-        <table class="table table-hover table-bordered">
-            <thead class="thead-dark">
-                <tr>
-                    <th>Select</th>
-                    <th>Name</th>
-                    <th>Available</th>
-                    <th>Quantity</th>
-                    <th>Fee per each</th>
-                </tr>
-            </thead>
-            <tbody class="table table-light table-bordered">
-                <tr>
-                    <th>
-                        <input type="checkbox">
-                    </th>
-                    <td>
-                        Chair
-                    </td>
-                    <td>
-                        300
-                    </td>
-                    <td>
-                        4
-                    </td>
-                    <td>
-                        $1
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <input type="checkbox">
-                    </th>
-                    <td>
-                        Table
-                    </td>
-                    <td>
-                        100
-                    </td>
-                    <td>
-                        4
-                    </td>
-                    <td>
-                        $5
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <input type="checkbox">
-                    </th>
-                    <td>
-                        Table Cloth
-                    </td>
-                    <td>
-                        100
-                    </td>
-                    <td>
-                        4
-                    </td>
-                    <td>
-                        $.50
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <input type="checkbox">
-                    </th>
-                    <td>
-                        Charcoal BBQ
-                    </td>
-                    <td>
-                        7
-                    </td>
-                    <td>
-                        4
-                    </td>
-                    <td>
-                        $20
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class=".col-md-3 .offset-md-3"></div>
-            <div class=".col-md-3 .offset-md-3">
-                <a class="btn btn-warning mr-2" href="/payments" role="button">
-                    Reserve
-                </a>
-            </div>
+        <div>
+            <button class="btn btn-warning mt-2"> Submit Feedback</button>
         </div>
     </div>
 
