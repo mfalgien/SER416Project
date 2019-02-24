@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> Vounteer for something </title>
+    <title> Current Enrollments </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -25,17 +25,17 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
-            <button type="button" class="btn btn-success float-right"> Rental Services </button>
+            <button type="button" class="btn btn-success float-right"> Log Out </button>
         </nav>
     </div>
-    <div class="jumbotron jumbotron" id="jumbo">
+    <div class="jumbotron jumbotron pb-2" id="jumbo">
         <div class="container justify-content-center">
-            <h1 class="display-4">Hello Michael!</h1>
-            <p class="lead">Choose a class or service to volunteer for</p>
+            <h1 class="display-5">Hello Michael!</h1>
+            <p class="lead">Current Enrollments</p>
         </div>
     </div>
 
-    <div class="container-fluid col-8 d-flex">
+    <div class="container-fluid col-8">
         <table class="table table-hover table-bordered">
             <thead class="thead-dark">
                 <tr>
@@ -43,6 +43,7 @@
                     <th>Class</th>
                     <th>Day</th>
                     <th>Time</th>
+                    <th>Fee</th>
                 </tr>
             </thead>
             <tbody class="table table-light table-bordered">
@@ -59,6 +60,9 @@
                     <td>
                         5:00-7:00PM
                     </td>
+                    <td>
+                        $0
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -72,6 +76,9 @@
                     </td>
                     <td>
                         2:00-3:00PM
+                    </td>
+                    <td>
+                        $0
                     </td>
                 </tr>
                 <tr>
@@ -87,67 +94,67 @@
                     <td>
                         2:00-3:00PM
                     </td>
-                </tr>
-                <tr>
                     <td>
-                        <input type="checkbox">
-                    </td>
-                    <td>
-                        On Call Senior Driver
-                    </td>
-                    <td>
-                        Monday
-                    </td>
-                    <td>
-                        9:00-12:00PM
+                        $5
                     </td>
                 </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container mt-3 col-8">
+        <div class=" row justify-content-between">
+            <div class="col-4 justify-content-left">
+                <h4>
+                    <u>
+                        Drop Course
+                    </u>
+                </h4>
+            </div>
+            <div class="col-3 align-items-right">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Amount Due: </span>
+                    </div>
+                    <input type="text" class="form-control" value="$5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container mt-3 col-8">
+            <div class="row justify-content-between">
+                <div class="col-4 justify-content-left">
+                    <h4>
+                        Volunteering
+                    </h4>
+                </div>
+                <div class="col-1-md align-items-right">
+                    <span>
+                        <a class="btn btn-warning" href="/payments" role="button">
+                            Pay Now
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3 col-8">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
                 <tr>
-                    <td>
-                        <input type="checkbox">
-                    </td>
-                    <td>
-                        On Call Senior Driver
-                    </td>
-                    <td>
-                        Tuesday
-                    </td>
-                    <td>
-                        9:00-12:00PM
-                    </td>
+                    <th></th>
+                    <th>Service</th>
+                    <th>Day</th>
+                    <th>Time</th>
                 </tr>
+            </thead>
+            <tbody class="table table-light table-bordered">
                 <tr>
-                    <td>
+                    <th>
                         <input type="checkbox">
-                    </td>
-                    <td>
-                        On Call Senior Driver
-                    </td>
-                    <td>
-                        Wednesday
-                    </td>
-                    <td>
-                        9:00-12:00PM
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                    </td>
-                    <td>
-                        On Call Senior Driver
-                    </td>
-                    <td>
-                        Thursday
-                    </td>
-                    <td>
-                        9:00-12:00PM
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox">
-                    </td>
+                    </th>
                     <td>
                         On Call Senior Driver
                     </td>
@@ -158,17 +165,22 @@
                         9:00-12:00PM
                     </td>
                 </tr>
+                <tr>
+                    <th>
+                        <input type="checkbox">
+                    </th>
+                    <td>
+                        Home Care
+                    </td>
+                    <td>
+                        Friday
+                    </td>
+                    <td>
+                        2:00-5:00PM
+                    </td>
+                </tr>
             </tbody>
         </table>
-    </div>
-
-
-    <div class="container col-6 mt-3 d-flex align-items-right justify-content-right"">
-        <a class=" btn btn-warning mr-2" href="/enrolled" role="button">
-        Volunteer for Selection
-        </a>
-
-
     </div>
     <div>
         <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">

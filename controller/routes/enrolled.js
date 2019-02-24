@@ -1,13 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-/* GET volunteer page. */
+/* GET enrolled page. */
 router.get('/', function(req, res, next) {
-  res.render('volunteer');
-});
-
-router.get('/select', function(req, res, next) {
-  res.render('volunteerSelect');
+  res.render('enrolled');
 });
 
 module.exports = router;

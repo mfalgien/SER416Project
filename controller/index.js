@@ -10,7 +10,9 @@ const registerRouter = require('./routes/register');
 const loginRouter = require('./routes/login');
 const donateRouter = require('./routes/donate');
 const volunteerRouter = require('./routes/volunteer');
-const volunteerSelectRouter = require('./routes/volunteerSelect');
+const enrolledRouter = require('./routes/enrolled');
+const rentalRouter = require('./routes/rentals');
+const requestsRouter = require('./routes/requests');
 
 app.listen(8001, function () {
     console.log('Listening on 8001...');
@@ -25,4 +27,6 @@ app.use('/register', registerRouter);
 app.use('/login', loginRouter);
 app.use('/donate', donateRouter);
 app.use('/volunteer', volunteerRouter);
-app.use('/volunteerselect', volunteerSelectRouter);
+app.use('/enrolled', enrolledRouter);
+app.use('/rentals', rentalRouter);
+app.use('/requests', requestsRouter);
