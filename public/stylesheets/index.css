@@ -2,6 +2,14 @@
     background-color: #FFEFA5;
 }
 
-.navbar-light {
+.bg-light {
     background-color: #FFEFA5;
+}
+
+body {
+    background-color: #BCEEAB;
+}
+
+#jumbo {
+    background-color: #BCEEAB;
 }
