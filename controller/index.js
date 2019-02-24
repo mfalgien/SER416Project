@@ -15,6 +15,7 @@ const rentalRouter = require('./routes/rentals');
 const requestsRouter = require('./routes/requests');
 const paymentsRouter = require('./routes/payments');
 const adminRounter = require('./routes/admin');
+const courseListRouter = require('./routes/courselist');
 
 app.listen(8001, function () {
     console.log('Listening on 8001...');
@@ -34,3 +35,4 @@ app.use('/rentals', rentalRouter);
 app.use('/requests', requestsRouter);
 app.use('/payments', paymentsRouter);
 app.use('/admin', adminRounter);
+app.use('/courselist', courseListRouter);
