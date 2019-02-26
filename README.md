@@ -14,3 +14,5 @@ Controller -> index.js
 npm install
 
 node (nodemon) index.js
+
+localhost:8001/
