@@ -11,4 +11,5 @@ SER 416 Project - Michael Falgien
 Controller -> index.js
 
 ## to run
+npm install
 node (nodemon) index.js
