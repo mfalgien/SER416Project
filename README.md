@@ -12,4 +12,5 @@ Controller -> index.js
 
 ## to run
 npm install
+
 node (nodemon) index.js
