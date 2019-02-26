@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Add Equipment </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/register.css' />
+
+</head>
+
+<body>
+    <div class='container-fluid pt-2'>
+        <button type="button" class="btn btn-success float-right"> Log Out </button>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron pb-2" id="jumbo">
+        <div class="container justify-content-center">
+            <h1 class="display-5">Enter Equipment Information</h1>
+        </div>
+    </div>
+
+    <div class="container col-6 ">
+        <form class="align-items-center">
+            <div class="form-group">
+                <label>Equipment Details</label>
+                <input type="text" class="form-control" placeholder="Name of Equipment">
+            </div>
+            <div class="form-group mt-3">
+                <input type="email" class="form-control" placeholder="Description">
+            </div>
+
+            <div class="form-row">
+                <div class="row">
+                    <div class="col">
+                        <label for="details">Fee</label>
+                        <input type="number" class="form-control" id="details" placeholder="$" min="0">
+                    </div>
+                    <div class="col">
+                        <label for="year"> Quantity</label>
+                        <input type="number" class="form-control" min="1">
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-row mt-3">
+                <input type="checkbox"> Check if hourly fee </input>
+            </div>
+        </form>
+
+    </div>
+    <div class="container col-6 mt-3 d-flex align-items-center justify-content-center"">
+            <a class=" btn btn-warning mr-2" href="/admin" role="button"> Enter
+        </a>
+
+    </div>
+    <div>
+        <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+            <a class="navbar-brand mr-3" href="/">Home</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3 mr-3" href="/">Refund Policy</a>
+            <h4>|</h4>
+            <a class="navbar-brand ml-3" href="/requests">Requests</a>
+        </nav>
+    </div>
+</body>
+
+</html>
